@@ -6,9 +6,9 @@
   <p>A Snapchat feature enabling foster youth nonprofits to expand their social media presence through community profiles, real-time chat, and resource discovery. Built in partnership with Better Youth during the Snapchat Software Engineering Academy.</p>
 
   <p>
-    <a href="#features">Features</a> •
-    <a href="#tech-stack">Tech Stack</a> •
-    <a href="#installation">Installation</a> •
+    <a href="#features">Features</a>
+    <a href="#tech-stack">Tech Stack</a>
+    <a href="#installation">Installation</a>
   </p>
 </div>
 
@@ -42,28 +42,28 @@ Better Youth's mission is to bridge resource gaps and prepare foster and system-
 
 ## Features
 
-### 🌐 Nonprofit Community Profiles
+### Nonprofit Community Profiles
 - **Frontend community profile pages** with rich content display
 - Organization profiles with follower tracking and member engagement
 - "Ask a Question" feature for direct community interaction
 - Stories, Spotlight, and Places sections for content discovery
 - Profile verification badges and metadata display
 
-### 💬 Real-Time Group Chat System
+### Real-Time Group Chat System
 - **Real-time messaging functionality** using Supabase
 - Group chat capabilities for community discussions
 - Friend connections and private messaging
 - Integrated chat interface using React Native Gifted Chat
 - Real-time message synchronization across devices
 
-### 🗄️ Backend Database Architecture
+### Backend Database Architecture
 - **Supabase backend** powering all features
 - PostgreSQL database schema for events, organizations, and user data
 - Real-time subscriptions for chat and content updates
 - Secure authentication and user management
 - RESTful API integration across the mobile app
 
-### 🗺️ Interactive Resource Map
+### Interactive Resource Map
 - Map view of LA County foster youth organizations
 - Location-based resource discovery
 - GPS integration for finding nearby services
@@ -180,27 +180,6 @@ The app features a bottom tab navigation with the following screens:
 ## Development Context
 
 This project was developed as part of the **Snapchat Software Engineering Academy**, with a focus on creating technology solutions for social impact. 
-
----
-
-## Team & Collaboration
-
-This project was built through cross-functional collaboration:
-
-### Engineering Team (3)
-- Full-stack development across frontend and backend
-- Feature implementation and system integration
-
-### Design Team (2)
-- UI/UX design for community profiles and chat interfaces
-- User experience optimization and design systems
-
-### Marketing Team (2)
-- User research and needs assessment
-- Feature optimization and user testing
-
-### Nonprofit Partner
-- **Better Youth** - Requirements gathering, user feedback, and mission alignment
 
 ---
 
