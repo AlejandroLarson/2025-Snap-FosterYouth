@@ -1,161 +1,209 @@
-# The almost everything about Readme.md 101
+# Snap Cares
 
-## Why README ??
-
-🔧 Think about your README as a warm hug to your visitors. Have you ever been frustrated by Ikea instructions because they are unclear? Let's make sure we aren't frustrating our peers and most importantly recruiters when visting our repos.
-
-## Let's talk about the most viable Readme
-
-💭 At MINIMUM it should include `what the project does`, I don't know anyone who can look at a fullstack and confidently describe what the app does and all the features. It's your job to let your visitor know what they are looking at.
-
-The next thing we want to include is `how to run`. If I wanted to clone your repo, what would I need to do to get the project running? Do we have to run `npm install` and where? How do we start our server? Do we need to add an `.env` file and what keys do I need to provide?
-
-## Templates are nice so use one!
-
-<a id="readme-top"></a>
-
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="./SEA Logomark.png" alt="Logo" width="180" height="80">
-  </a>
+  <img src="./assets/better_youth_logo.png" alt="Better Youth Logo" width="200">
+  
+  <p>A Snapchat feature enabling foster youth nonprofits to expand their social media presence through community profiles, real-time chat, and resource discovery. Built in partnership with Better Youth during the Snapchat Software Engineering Academy.</p>
 
-<h3 align="center">project_title</h3>
-
-  <p align="center">
-    SHORT project_description (Ex. Todo App)
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the Docs Link»</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo Link</a>
+  <p>
+    <a href="#features">Features</a> •
+    <a href="#tech-stack">Tech Stack</a> •
+    <a href="#installation">Installation</a> •
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
-</details>
-
-<!-- ABOUT THE PROJECT -->
+---
 
 ## About The Project
 
-Here's a blank template to get started. Tell me about the project and features it has.
+Snap Cares is a Snapchat feature designed to empower foster youth nonprofits by expanding their social media presence and community engagement capabilities. Developed by a team of 3 engineers working on frontend and backend systems to create a comprehensive mobile feature.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+The project was developed through collaboration with:
+- **3 Engineers** for full-stack development
+- **2 Designers** for UI/UX design
+- **2 Marketers** for user research and feature optimization
+- **Better Youth** as our nonprofit partner
 
-### Built With 
-(*Note: scroll down in the markdown view of this readme to configure the syntax and switch out tech stacks.)
+### Project Impact
 
-- [![Next][Next.js]][Next-url]
-- [![React][React.js]][React-url]
-- [![Vue][Vue.js]][Vue-url]
-- [![Angular][Angular.io]][Angular-url]
-- [![Svelte][Svelte.dev]][Svelte-url]
-- [![Laravel][Laravel.com]][Laravel-url]
-- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-- [![JQuery][JQuery.com]][JQuery-url]
+This feature enables nonprofits like Better Youth to:
+- Build and maintain community profiles with rich content
+- Connect with foster youth through real-time group chat
+- Share resources and event information effectively
+- Expand their digital presence on a platform youth already use
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+The final product was delivered at a **company showcase**, presented to executives and over **200+ attendees**, demonstrating the potential of technology to create meaningful social impact.
 
-<!-- GETTING STARTED -->
+### Mission Alignment
 
-## Getting Started
+Better Youth's mission is to bridge resource gaps and prepare foster and system-impacted youth for success in the creative economy. Snap Cares supports this mission by providing a centralized platform for community engagement, resource access, and peer-to-peer connection.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running, follow these simple example steps.
+---
+
+## Features
+
+### 🌐 Nonprofit Community Profiles
+- **Frontend community profile pages** with rich content display
+- Organization profiles with follower tracking and member engagement
+- "Ask a Question" feature for direct community interaction
+- Stories, Spotlight, and Places sections for content discovery
+- Profile verification badges and metadata display
+
+### 💬 Real-Time Group Chat System
+- **Real-time messaging functionality** using Supabase
+- Group chat capabilities for community discussions
+- Friend connections and private messaging
+- Integrated chat interface using React Native Gifted Chat
+- Real-time message synchronization across devices
+
+### 🗄️ Backend Database Architecture
+- **Supabase backend** powering all features
+- PostgreSQL database schema for events, organizations, and user data
+- Real-time subscriptions for chat and content updates
+- Secure authentication and user management
+- RESTful API integration across the mobile app
+
+### 🗺️ Interactive Resource Map
+- Map view of LA County foster youth organizations
+- Location-based resource discovery
+- GPS integration for finding nearby services
+- Organization markers with detailed information
+
+---
+
+## Tech Stack
+
+### Frontend
+- **React Native** - Cross-platform mobile development
+- **Expo** - Development platform and tooling
+- **React Navigation** - Navigation and routing
+
+### Backend & Services
+- **Supabase** - Backend as a Service (BaaS)
+  - PostgreSQL database
+  - Real-time subscriptions
+  - Authentication
+  - Storage
+
+---
+
+## Installation
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Ensure you have the following installed:
+- Node.js (v14 or higher)
+- npm or yarn
+- Expo CLI
+- iOS Simulator (for Mac) or Android Studio (for Android development)
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+```bash
+# Install Expo CLI globally
+npm install -g expo-cli
+```
 
-### Installation
+### Setup Instructions
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AlejandroLarson/2025-Snap-FosterYouth.git
+   cd 2025-Snap-FosterYouth
    ```
-3. Install NPM packages
-   ```sh
+
+2. **Install dependencies**
+   ```bash
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+
+3. **Configure Supabase**
+   
+   Create a `.env` file in the root directory:
+   ```env
+   EXPO_PUBLIC_SUPABASE_URL=your_supabase_url
+   EXPO_PUBLIC_SUPABASE_KEY=your_supabase_anon_key
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+   Get your Supabase credentials from your [Supabase project dashboard](https://supabase.com/dashboard).
 
-<!-- USAGE EXAMPLES -->
+4. **Start the development server**
+   ```bash
+   npm start
+   ```
+
+5. **Run on your device**
+   - Scan the QR code with the Expo Go app (iOS/Android)
+   - Or press `i` for iOS simulator
+   - Or press `a` for Android emulator
+
+---
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Running the App
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+```bash
+# Start Expo development server
+npm start
 
-<!-- LICENSE -->
+# Run on iOS
+npm run ios
+
+# Run on Android
+npm run android
+
+# Run on web
+npm run web
+```
+
+### Main Navigation
+
+The app features a bottom tab navigation with the following screens:
+- **Home** - Main feed and community updates
+- **Chat** - Messaging and conversations
+- **Camera** - Capture and share moments
+- **Map** - Find nearby resources and organizations
+- **Events** - Discover and manage community events
+
+### Key User Flows
+
+1. **Joining a Community**
+   - Navigate to the Better Youth community page
+   - Tap "Join Community" to connect with others
+
+2. **Discovering Resources**
+   - Open the Map screen
+   - View organizations across LA County
+   - Tap markers for detailed information
+
+---
+
+## Development Context
+
+This project was developed as part of the **Snapchat Software Engineering Academy**, with a focus on creating technology solutions for social impact. 
+
+---
+
+## Team & Collaboration
+
+This project was built through cross-functional collaboration:
+
+### Engineering Team (3)
+- Full-stack development across frontend and backend
+- Feature implementation and system integration
+
+### Design Team (2)
+- UI/UX design for community profiles and chat interfaces
+- User experience optimization and design systems
+
+### Marketing Team (2)
+- User research and needs assessment
+- Feature optimization and user testing
+
+### Nonprofit Partner
+- **Better Youth** - Requirements gathering, user feedback, and mission alignment
+
+---
 
 ## License
 
-Distributed under the project_license. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
-
-## Let's talk resouces
-
-🌳 If you want to implement a table or bold text or even bullet point, use this [documentation](https://google.github.io/styleguide/docguide/style.html) to get the right syntax. Don't be afraid to look at other templates and pull the parts and types you like! Sharing is caring.
+This project was created as part of the Snapchat Software Engineering Academy.
